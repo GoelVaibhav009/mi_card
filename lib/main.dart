@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(Micard());
-}
+void main() =>  runApp(Micard());
+
 
 class Micard extends StatelessWidget {
   @override
@@ -69,11 +68,12 @@ class Micard extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'programmer@gmail.com',
+                    'creativeprogrammer623@gmail.com',
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontFamily: 'SourceSansPro',
-                      fontSize: 20,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold
                     ),
                   ),
                 ),
